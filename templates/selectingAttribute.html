@@ -1,0 +1,76 @@
+{% extends 'theme_2.html' %}
+
+{% block body %}
+
+     <!--================login Area =================-->
+        <section class="login_area p_100">
+            <div class="container">
+                <div class="login_inner">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="login_title">
+                                <h2>Select Your Criterions</h2>
+                            </div>
+                            <form class="login_form row" method="POST">
+                                <div class="col-lg-12 form-group">
+                                    <select type="text" name="brand"  placeholder="Brands" class="form-control" value={{request.form.brand}}>
+                                        <option value="brands">Brands</option>
+                                        <option value="apple">Apple</option>
+                                         <option value="msi">Msi</option>
+                                        <option value="dell">Dell</option>
+                                        <option value="hp">HP</option>
+                                        <option value="lenovo">Lenovo</option>
+                                        <option value="asus">Asus</option>
+                                        <option value="acer">Acer</option>
+                                        <option value="casper">Casper</option>
+                                    </select>
+                                </div>
+                                                                <div class="col-lg-12 form-group">
+                                    <select type="text" name="cpu"  placeholder="CPU" class="form-control" value={{request.form.cpu}}>
+                                        <option value="cpu">CPU</option>
+                                        <option value="i3">Intel i3</option>
+                                        <option value="i5">Intel i5</option>
+                                        <option value="i7">Intel i7</option>
+                                        <option value="ryzen">AMD Ryzen</option>
+                                    </select>
+                                </div>
+                                                                <div class="col-lg-12 form-group">
+                                    <select type="text" name="ram"  placeholder="RAM" class="form-control" value={{request.form.ram}}>
+                                        <option value="ram">RAM</option>
+
+                                        <option value="4gb"> 4 GB</option>
+                                        <option value="8gb">8 GB</option>
+                                        <option value="16gb">16 GB</option>
+                                        <option value="32gb">32 GB</option>
+                                    </select>
+                                </div>
+                                                                <div class="col-lg-12 form-group">
+                                    <select type="text" name="storagemedia"  placeholder="Storage Media" class="form-control" value={{request.form.storagemedia}}>
+                                        <option value="storagemedia">Storage Media</option>
+                                        <option value="hdd">HDD</option>
+                                        <option value="ssd">SSD</option>
+                                    </select>
+                                </div>
+
+                                              <div class="col-lg-12 input-group form-group">
+                                    <input type="number" name="minprice" placeholder="Min Price TL" class="form-control"  style="width: 150px; height: 40px;" value={{request.form.minprice}}>
+                                    <input type="number" name="maxprice" placeholder="Max Price TL" class="form-control" style="width: 150px; height: 40px;" value={{request.form.maxprice}}>
+                                </div>
+
+
+                                <div class="col-lg-12 form-group">
+                                    <button type="submit" value="submit" class="btn subs_btn form-control">Search</button>
+                                </div>
+                            </form>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End login Area =================-->
+
+
+{% endblock %}

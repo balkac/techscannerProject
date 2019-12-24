@@ -1,0 +1,42 @@
+{% extends 'theme_2.html' %}
+
+
+{% block body %}
+
+      <!--================login Area =================-->
+        <section class="login_area p_100">
+            <div class="container">
+                <div class="login_inner">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="login_title">
+                                <h2>Login to Your Account</h2>
+                                <p>Login to Your Account to Discover All The Great Deals Your Criterions!</p>
+                            </div>
+                            <form class="login_form row" method="POST">
+                                <div class="col-lg-12 form-group">
+                                    <input type="text" name="username"  placeholder="Username" class="form-control" value={{request.form.username}}>
+                                </div>
+                                <div class="col-lg-12 form-group">
+                                    <input type="password" name="password" placeholder="Password" class="form-control" value={{request.form.password}}>
+                                </div>
+                                <div class="col-lg-12 form-group">
+                                 <div class="creat_account">
+                                     <a href="/register"><b>Create an Account</b></a>
+                                    </div>
+                                <a href="#"> <h4>Forgot Your Password?</h4></a>
+                                </div>
+                                <div class="col-lg-12 form-group">
+                                    <button type="submit" value="submit" class="btn subs_btn form-control">Login</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End login Area =================-->
+
+
+{% endblock %}

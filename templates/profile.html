@@ -1,0 +1,74 @@
+{% extends 'theme_2.html' %}
+
+
+{% block body %}
+
+            <!--================Product Compare Area =================-->
+        <section class="product_compare_area">
+            <div class="container">
+                <div class="compare_table">
+                    <div class="table-responsive-md">
+                        <table class="table">
+                            <thead>
+                                <tr>
+
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Photo</th>
+                                    <td>
+                                        <img style="width: 300px;" src="../static/img/icon/profilphoto.png" alt="">
+
+
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Name</span></th>
+                                    <td>
+                                        <h6>{{session.userisim}}</h6>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Surname</span></th>
+                                    <td><h6>{{session.usersoyisim}}</h6></td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Username</span></th>
+                                    <td><h6>{{session.username}}</h6></td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>E-mail</span></th>
+                                    <td><h6>{{session.useremail}}</h6></td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row"><span>Password</span></th>
+                                    <td><h6>**********</h6></td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+<div align="right">
+     <a class="add_cart_btn continue" href="/updateprofile">Update Your Credentials</a>
+</div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <!--================End Product Compare Area =================-->
+
+
+
+
+{% endblock %}

@@ -1,0 +1,162 @@
+{% extends 'theme_2.html' %}
+
+
+{% block body %}
+
+
+        <!--================Shopping Cart Area =================-->
+        <section class="shopping_cart_area p_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="cart_product_list">
+                            <h3 class="cart_single_title">Wish List</h3>
+                            <div class="table-responsive-md">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col">Product</th>
+                                            <th scope="col">Price</th>
+
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% for row in session.wishlist %}
+               <tr>
+                                            <th scope="row">
+                                             <a href="/deleteFavorite/{{ row[0] }}">    <img src="../static/img/icon/close-icon.png" alt=""> </a>
+                                            </th>
+                                            <td>
+
+                                                <div class="media">
+
+                                                    <div class="d-flex">
+                                                       <a href="{{row[4]}}"> <div>   <img src="{{row[6]}}" style="width: 90px;"></div>  <img style="width: 125px;" src="{{row[2]}}" alt=""> </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                       <a href="{{row[4]}}"> <h4>{{row[3]}}</h4></a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td><p>{{row[5]}}</p></td>
+                                        </tr>
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="calculate_shoping_area">
+
+                                    <a href="https://www.skyscanner.com">   <img style="width: 700px;border: 3px solid gray;" src="../static/img/skyscanner.png"> </a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="total_amount_area">
+
+                                {% if large > 1 %}
+                                        <div class="col-lg-3 col-sm-6">
+                                                  <div>
+                                                      <img src="{{ adsProducts[0].logo }}" style="width: 125px;">
+                                                  </div>
+                                                    <div class="l_product_item" style="width: 350px;border: 3px solid gray;">
+                                                        <div class="l_p_img">
+                                                            <center>
+                                                          <a href="{{adsProducts[0].link}}">   <img style="height: 200px; " src="{{adsProducts[0].image}}"> </a>
+                                                            </center>
+                                                        </div>
+                                                        <div class="l_p_text" style="height: 130px; background-color: gray; ">
+                                                           <ul>
+                                                               <li><a class="add_cart_btn" href="https://www.mediamarkt.com.tr/tr/product/_with-touch-bar-2-3ghz-8-core-9th-generation-%C4%B1ntel%C2%A0core%C2%A0i9-processor-512gb-sp-15-macbook-pro-1200469.html">Check The Offer</a></li>
+                                                           </ul>
+                                                            <br>
+                                                           <h4 style="padding-bottom: 10px; font-size: 14px; color: white">{{ adsProducts[0].attr }}</h4>
+                                                            <h5 style="color: black"> {{ adsProducts[0].price }}</h5>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                {% else %}
+                                     <div class="cupon_box">
+                                    <a href="https://www.mediamarkt.com.tr">   <img style="width: 400px;border: 3px solid gray;" src="../static/img/Mediamarkt.jpeg"> </a>
+                                     </div>
+                                {% endif %}
+
+
+                                {% if large > 1 %}
+                                           <div class="col-lg-3 col-sm-6">
+                                                  <div>
+                                                      <img src="{{ adsProducts[1].logo }}" style="width: 125px;">
+                                                  </div>
+                                                    <div class="l_product_item" style="width: 350px;border: 3px solid gray;">
+                                                        <div class="l_p_img">
+                                                            <center>
+                                                          <a href="{{adsProducts[1].link}}">   <img style="height: 200px; " src="{{adsProducts[1].image}}"> </a>
+                                                            </center>
+                                                        </div>
+                                                        <div class="l_p_text" style="height: 130px; background-color: gray; ">
+                                                           <ul>
+                                                               <li><a class="add_cart_btn" href="https://www.mediamarkt.com.tr/tr/product/_with-touch-bar-2-3ghz-8-core-9th-generation-%C4%B1ntel%C2%A0core%C2%A0i9-processor-512gb-sp-15-macbook-pro-1200469.html">Check The Offer</a></li>
+                                                           </ul>
+                                                            <br>
+                                                           <h4 style="padding-bottom: 10px; font-size: 14px; color: white">{{ adsProducts[1].attr }}</h4>
+                                                            <h5 style="color: black"> {{ adsProducts[1].price }}</h5>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                {% else %}
+                                     <div class="cart_totals">
+                                     <a href="https://www.teknosa.com">   <img style="width: 400px;border: 3px solid gray;" src="../static/img/teknosa.jpeg"> </a>
+                                    </div>
+                                {% endif %}
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End Shopping Cart Area =================-->
+
+
+{% endblock %}

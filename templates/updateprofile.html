@@ -1,0 +1,45 @@
+{% extends 'theme_2.html' %}
+
+
+{% block body %}
+
+
+      <!--================login Area =================-->
+        <section class="login_area p_100">
+            <div class="container">
+                <div class="login_inner">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="login_title">
+                                <h2>Update Your Credentials</h2>
+
+                            </div>
+                            <form class="login_form row" method="POST">
+
+                                                               <div class="col-lg-12 form-group">
+                                    <input type="text" name="useremail" placeholder="E-mail" class="form-control" value={{request.form.useremail}}>
+                                </div>
+                                                               <div class="col-lg-12 form-group">
+                                    <input type="password" name="oldpassword" placeholder="Old Password" class="form-control" value={{request.form.oldpassword}}>
+                                </div>
+                                                               <div class="col-lg-12 form-group">
+                                    <input type="password" name="newpasswordfirst" placeholder="New Password" class="form-control" value={{request.form.newpasswordfirst}}>
+                                </div>
+                                                               <div class="col-lg-12 form-group">
+                                    <input type="password" name="newpasswordsecond" placeholder="Confirm New Password" class="form-control" value={{request.form.newpasswordsecond}}>
+                                </div>
+
+                                <div class="col-lg-12 form-group">
+                                    <button type="submit" value="submit" class="btn subs_btn form-control">Update</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================End login Area =================-->
+
+
+{% endblock %}

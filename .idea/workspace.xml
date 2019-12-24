@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1974ed80-22ce-4c61-8f03-e6161753f688" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/.coverage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/cross_brow_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/coverage_html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/jquery.ba-throttle-debounce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/jquery.hotkeys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/jquery.isonscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/keybd_closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/keybd_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/locust_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/status.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/htmlcov/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/locust.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbinit.py" beforeDir="false" afterPath="$PROJECT_DIR$/dbinit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scss/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact_process.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/favorites.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/favorites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/leftdiv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/listele.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/listele.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/listele2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/listele3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navigation_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navigation_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/selectingAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/selectingAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/theme.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/theme_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/updateprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/updateprofile.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="VERSION SOFTSOFT222" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1SI29I9JfY4tLEFcfZ5VY1uREIE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alican\Desktop\version 99\sonsonsonsonsonSoftware\static\img\blog" />
+      <recent name="C:\Users\Alican\Desktop\Software Eng son karışık\static\img" />
+      <recent name="C:\Users\Alican\Desktop\Software Eng son karışık\static" />
+      <recent name="C:\Users\Alican\Desktop\Software Eng son karışık\templates" />
+      <recent name="C:\Users\Alican\Desktop\YEDEK ONEMLİ 2019-12\Software Eng\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\furka\Desktop\VERSION SOFTSOFT222" />
+      <recent name="C:\Users\Alican\Desktop\version17 itopya sorunsuz filtre her sey okey\static\img\icon" />
+      <recent name="C:\Users\Alican\Desktop\version 17 teknosa ve hepsi burada filter calisiyor\version17\static\img\icon" />
+      <recent name="C:\Users\Alican\Desktop\version 99\sonsonsonsonsonSoftware\static\img\blog\from-blog" />
+      <recent name="C:\Users\Alican\Desktop\version 99\sonsonsonsonsonSoftware\static\img\blog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="C:/Python/Lib/site-packages/psycopg2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:/Python/Lib/site-packages/psycopg2/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dbinit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbinit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\furka\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_basic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="untitled11" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\furka\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="untitled11" type="Python.FlaskServer">
+      <module name="untitled11" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.test_basic" />
+        <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Python.dbinit" />
+        <item itemvalue="Python.__init__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1974ed80-22ce-4c61-8f03-e6161753f688" name="Default Changelist" comment="" />
+      <created>1571236635320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571236635320</updated>
+      <workItem from="1571236636444" duration="1145000" />
+      <workItem from="1572097304754" duration="3960000" />
+      <workItem from="1572428199414" duration="1250000" />
+      <workItem from="1572443323123" duration="333000" />
+      <workItem from="1572443674039" duration="913000" />
+      <workItem from="1572511358370" duration="616000" />
+      <workItem from="1574858799297" duration="7660000" />
+      <workItem from="1575283087290" duration="23000" />
+      <workItem from="1575375590061" duration="291000" />
+      <workItem from="1575377793386" duration="694000" />
+      <workItem from="1575455383092" duration="1605000" />
+      <workItem from="1575460746717" duration="4212000" />
+      <workItem from="1575640373384" duration="90000" />
+      <workItem from="1575647735202" duration="2144000" />
+      <workItem from="1575801358195" duration="3506000" />
+      <workItem from="1576069158390" duration="2064000" />
+      <workItem from="1576073089560" duration="461000" />
+      <workItem from="1576073652579" duration="6973000" />
+      <workItem from="1576080887948" duration="475000" />
+      <workItem from="1576081392645" duration="13000" />
+      <workItem from="1576082751948" duration="1135000" />
+      <workItem from="1576083909081" duration="31000" />
+      <workItem from="1576084075872" duration="18000" />
+      <workItem from="1576084113709" duration="48000" />
+      <workItem from="1576084266747" duration="5135000" />
+      <workItem from="1576150404259" duration="3959000" />
+      <workItem from="1576159956819" duration="2435000" />
+      <workItem from="1576162444953" duration="3283000" />
+      <workItem from="1576168166311" duration="6445000" />
+      <workItem from="1576229692691" duration="2853000" />
+      <workItem from="1576232591783" duration="9714000" />
+      <workItem from="1576247149335" duration="3687000" />
+      <workItem from="1576312334704" duration="12901000" />
+      <workItem from="1576325394650" duration="8187000" />
+      <workItem from="1576339215656" duration="5056000" />
+      <workItem from="1576344522677" duration="6356000" />
+      <workItem from="1576402318092" duration="4158000" />
+      <workItem from="1576406540269" duration="3990000" />
+      <workItem from="1576412451112" duration="824000" />
+      <workItem from="1576414373103" duration="4034000" />
+      <workItem from="1576667157090" duration="3142000" />
+      <workItem from="1576670381482" duration="12590000" />
+      <workItem from="1576683105396" duration="6503000" />
+      <workItem from="1576759203085" duration="18258000" />
+      <workItem from="1576782494683" duration="4956000" />
+      <workItem from="1576827610503" duration="611000" />
+      <workItem from="1576916280992" duration="5586000" />
+      <workItem from="1576921910559" duration="16000" />
+      <workItem from="1576922278578" duration="5055000" />
+      <workItem from="1576929314719" duration="120000" />
+      <workItem from="1576930299750" duration="7135000" />
+      <workItem from="1576948483742" duration="10167000" />
+      <workItem from="1576962080599" duration="5000" />
+      <workItem from="1576962566525" duration="603000" />
+      <workItem from="1576997075010" duration="2541000" />
+      <workItem from="1577024080352" duration="5908000" />
+      <workItem from="1577039442709" duration="1629000" />
+      <workItem from="1577041164812" duration="2191000" />
+      <workItem from="1577044416100" duration="379000" />
+      <workItem from="1577045362117" duration="111000" />
+      <workItem from="1577095916423" duration="3938000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="686" y="161" key="#app" timestamp="1577045425339">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="161" key="#app/0.0.1920.1040@0.0.1920.1040" timestamp="1577045425339" />
+    <state x="728" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576083340910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="728" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576083340910" />
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576774163278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576774163278" />
+    <state x="739" y="277" key="FileChooserDialogImpl" timestamp="1576949693651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576949693651" />
+    <state width="1877" height="265" key="GridCell.Tab.0.bottom" timestamp="1577102716286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577102716286" />
+    <state width="1877" height="265" key="GridCell.Tab.0.center" timestamp="1577102716286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577102716286" />
+    <state width="1877" height="265" key="GridCell.Tab.0.left" timestamp="1577102716286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577102716286" />
+    <state width="1877" height="265" key="GridCell.Tab.0.right" timestamp="1577102716286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577102716286" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1576962059118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576962059118" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1576962059118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576962059118" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1576962059118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576962059118" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1576962059118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576962059118" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1576962010424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576962010424" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1577095916375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577095916375" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/version15$app.coverage" NAME="app Coverage Results" MODIFIED="1576938056355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/islemde_olan_sofftware$app.coverage" NAME="app Coverage Results" MODIFIED="1576418518700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Software_Eng$app.coverage" NAME="app Coverage Results" MODIFIED="1576084084063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/version_9_editlenmis$dbinit.coverage" NAME="dbinit Coverage Results" MODIFIED="1576775018726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/version17$app.coverage" NAME="app Coverage Results" MODIFIED="1576999493382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TechScanner$app.coverage" NAME="app Coverage Results" MODIFIED="1577102709370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VERSION_SOFTSOFT222_TESTL$app.coverage" NAME="app Coverage Results" MODIFIED="1577045425410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/version_9_editlenmis$app.coverage" NAME="app Coverage Results" MODIFIED="1576673569988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Software_Eng_son_kark$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1576246913753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled11$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1575283093576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Software_Eng_son_kark$app.coverage" NAME="app Coverage Results" MODIFIED="1576164750602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/version_9_editlenmis$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1576774923609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python/Lib/site-packages/psycopg2" />
+    <SUITE FILE_PATH="coverage/version17$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1576962571734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Software_Eng$dbinit.coverage" NAME="dbinit Coverage Results" MODIFIED="1575462801337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/version17_itopya_sorunsuz_filtre_her_sey_okey$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1577033188130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/islemde_olan_sofftware$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1576670177792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled11$app.coverage" NAME="app Coverage Results" MODIFIED="1574866490384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VERSION_SOFTSOFT$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1577042697702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Software_Eng$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1576083914267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VERSION_SOFTSOFT222$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1577044433071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/version15$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1576921838847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VERSION_SOFTSOFT222$test_basic.coverage" NAME="test_basic Coverage Results" MODIFIED="1577044777839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/sonsonsonsonsonSoftware$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1576786934786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/islemde_olan_sofftware$dbinit.coverage" NAME="dbinit Coverage Results" MODIFIED="1576319676049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/version_9_editlenmis$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1576778884004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/VERSION_898823123123$app.coverage" NAME="app Coverage Results" MODIFIED="1577041009665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

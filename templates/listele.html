@@ -1,0 +1,87 @@
+{% extends 'theme_2.html' %}
+
+
+{% block body %}
+     <section class="no_sidebar_2column_area">
+            <div class="container">
+                <div class="showing_fillter">
+                    <div class="row m0">
+
+
+
+
+        {% if length == 0 %}
+
+            <div>
+      <a href="/">       <img src="../static/img/error.png">   </a>
+            
+            </div>
+
+
+        {% else %}
+                        <div class="first_fillter">
+                            <h4>Showing 1 to 30 of 999 total</h4>
+                        </div>
+                            <div class="secand_fillter">
+                            <h4>SORT BY : <b> Lowest Price </b></h4>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="two_column_product">
+                    <div class="row">
+
+                                {% for s in range(o,p) %}
+                                                  <div class="col-lg-3 col-sm-6">
+                                                  <div>
+                                                      <img src="{{ products[s].logo }}" style="width: 125px;">
+                                                  </div>
+                                                    <div class="l_product_item">
+                                                        <div class="l_p_img">
+                                                            <center>
+                                                        <a href="{{ products[s].link }}"><img class="img-fluid" style="height: 200px;" src="{{ products[s].image }}" alt=""></a>
+                                                            </center>
+                                                        </div>
+                                                        <div class="l_p_text" style="height: 130px; background-color:#e8e8e8; ">
+                                                           <ul>
+                                                                {% if session.logged_in %}
+                                                                        {% if products[s].fav %}
+                                                                              <li><a class="add_cart_btn" href="/addfavorite/{{ s }}/{{ i }}">Add to My Wishlist</a></li>
+
+                                                                        {% else %}
+                                                                              <li><a class="add_cart_btn" href="/unFavorite/{{  s  }}/{{ i }}">Remove From My Wishlist</a></li>
+                                                                        {% endif %}
+                                                                {% else %}
+                                                                          <li><a class="add_cart_btn" href="/login">Add to My Wishlist</a></li>
+
+                                                                {% endif %}
+                                                            </ul>
+                                                            <h4 style="padding-bottom: 10px; font-size: 14px;">{{ products[s].attr }}</h4>
+                                                            <h5> {{ products[s].price }}</h5>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                  {% endfor %}
+
+                    {% endif %}
+
+
+
+                    </div>
+                    <nav aria-label="Page navigation example" class="pagination_area">
+                      <ul class="pagination">
+
+                         {% for x in range(1,sayfasayisi) %}
+                             {% if i == x %}
+                                 <li class="page-item"><a style="border: 1px solid #000002;"  class="page-link" href="/listele/{{x}}">{{x}}</a></li>
+                             {% else %}
+                                  <li class="page-item"><a class="page-link" href="/listele/{{ x }}">{{ x }}</a></li>
+                             {% endif %}
+                          {% endfor %}
+                        <li class="page-item next"><a class="page-link" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+{% endblock %}
